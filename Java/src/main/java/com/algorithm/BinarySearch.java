@@ -1,5 +1,10 @@
 package com.algorithm;
 
+/*
+ * Use [left, right) for insertion-point style searches (lower_bound, upper_bound)
+ * Use [left, right] when searching for real values or 
+ * maintaining a best match (floor, ceil, max < x, etc.)
+ */
 public class BinarySearch {
     /*
      * 1. Half-open interval: [left, right) right is exclusive
