@@ -1,11 +1,14 @@
 package com.algorithm;
 
+import com.algorithm.datastructure.BIT;
 import com.algorithm.multithreading.TaskScheduler;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        testTaskScheduler();
+        //testTaskScheduler();
+        //BIT.test();
+        BinarySearch.test();
     }
 
     public static void testTaskScheduler(){
